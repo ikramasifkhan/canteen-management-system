@@ -1,0 +1,19 @@
+{
+    "name":"ecommerce-project/mvc-pattern-php",
+    "author":"radi",
+    "require":{
+        "phroute/phroute": "^2.1"
+    },
+    "require-dev":{
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php",
+                "config.php"
+        ]
+    }
+}
