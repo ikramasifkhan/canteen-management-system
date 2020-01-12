@@ -11,3 +11,11 @@ if(!function_exists('partials')){
         require_once __DIR__.'/../views/partials/'.$location.'.php';
     }
 }
+
+if(function_exists('prd')){
+    function prd($variable_name){
+        echo '<pre>';
+        print_r($variable_name);
+        die();
+    }
+}
