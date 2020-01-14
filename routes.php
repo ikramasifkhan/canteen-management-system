@@ -16,6 +16,7 @@ $router->controller('/checkout', App\Controllers\Frontend\CheckoutController::cl
 $router->controller('/cart', App\Controllers\Frontend\CartController::class);
 $router->controller('/contact', App\Controllers\Frontend\ContactController::class);
 $router->controller('/login', App\Controllers\Backend\LoginController::class);
+$router->controller('/activate', App\Controllers\Backend\LoginController::class);
 $router->controller('/register', App\Controllers\Backend\RegisterController::class);
 
 

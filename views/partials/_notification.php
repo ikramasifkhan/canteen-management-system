@@ -1,7 +1,7 @@
 <?php if (!empty($_SESSION['errors'])) : ?>
     <div class="alert ">
         <?php foreach ($_SESSION['errors'] as $error) : ?>
-            <li class="text-danger">
+            <li class="text-danger" style="list-style: none">
                 <?php echo $error ?>
             </li>
         <?php endforeach; ?>

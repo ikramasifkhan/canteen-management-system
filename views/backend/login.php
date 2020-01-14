@@ -30,20 +30,18 @@
                         <?php
                         require_once __DIR__.'../../partials/_notification.php';
                         ?>
-                        <form>
+                        <form action="/login" method="POST">
                             <div class="form-group">
                                 <label>Email address</label>
-                                <input type="email" class="form-control" placeholder="Email">
+                                <input type="email" class="form-control" placeholder="Email" name="email" required>
                             </div>
+
                             <div class="form-group">
                                 <label>Password</label>
-                                <input type="password" class="form-control" placeholder="Password">
+                                <input type="password" class="form-control" name="password" placeholder="Password" >
                             </div>
                             <div class="checkbox">
-                                <label>
-                                    <input type="checkbox"> Remember Me
-                                </label>
-                                <label class="pull-right">
+                                <label class="pull-left">
                                     <a href="#">Forgotten Password?</a>
                                 </label>
 
